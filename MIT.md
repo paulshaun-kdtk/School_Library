@@ -1,4 +1,4 @@
-## Copyright 2023, [Shaun Kudzai, Encarta Yussif]
+## Copyright 2023, [Shaun Kudzai]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this database_app and associated documentation files, to deal in the database_app without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the database_app, and to permit persons to whom the database_app is furnished to do so, subject to the following conditions:
 
