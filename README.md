@@ -3,12 +3,12 @@
 
  <!-- LOGO -->
 
-  <img src="./My Logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <!-- <img src="./My Logo.png" alt="logo" width="140"  height="auto" />
+  <br/> -->
 
 <!-- MAIN HEADING -->
 
-  <h3><b>Encarta & Shaun Morse Code Interpreter</b></h3>
+  <h3><b>School Library</b></h3>
 
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -37,10 +37,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Encarta & Shaun Morse Code Interpreter] <a name="about-project"></a>
+# 📖 [School Library] <a name="about-project"></a>
 
 
-**Encarta & Shaun Morse Code Interpreter** is a backend project done in Ruby for Morse Code Interpretation.
+**School Library** is a backend project done in Ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,10 +63,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- Live demo coming soon...
+- Live demo coming soon... -->
 <!-- - [Live Demo Link](<replace-with-your-deployment-URL>) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -80,14 +80,15 @@ To get a local copy up and running clone this repository using:
 
 ```sh
   cd morse_code_interpreter
-  git clone https://github.com/paulshaun-kdtk/morse_code_interpreter.git
+  git clone https://github.com/paulshaun-kdtk/School_Library.git
 ```
 
 ### Prerequisites
 
 In order to run this project you need to install:
 
-> Ruby
+- Ruby
+
 
 ### Setup
 
@@ -95,8 +96,12 @@ Clone this repository to your desired folder:
 
 ```sh
   cd morse_code_interpreter
-  git clone https://github.com/paulshaun-kdtk/morse_code_interpreter.git
+  git clone https://github.com/paulshaun-kdtk/School_Library.git
+
 ```
+ 
+- cd school_library
+
 
 ### Install
 
@@ -110,13 +115,13 @@ To run the project, ensure to install:
 
 > Ruby
 
-### Run tests
+<!-- ### Run tests
 
 To run tests, run the following command:
 
 ```sh
-  npm run tests
-```
+  rubocop test
+``` -->
 
 ### Deployment
 
@@ -130,12 +135,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Anyars Yussif**
-
-- GitHub: [@anyars-encarta](https://github.com/anyars-encarta)
-- Twitter: [@anyarsencarta](https://twitter.com/anyarsencarta)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/anyars-yussif/)
-
 👤 **Shaun Details**
 
 - GitHub: [@shaun](https://github.com/paulshaun-kdtk)
@@ -146,7 +145,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add More Complex Morse Codes**
+- [ ] **A web portal**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +155,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-<!-- Feel free to check the [issues page](../../issues/). -->
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +171,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Special acknowledgement to [@microverseinc](https://github.com/microverseinc) and [@Ruby](https://www.ruby-lang.org/en/)
+> Special acknowledgement to [@microverseinc](https://github.com/microverseinc) and [@TheRubyCommunity](https://www.ruby-lang.org/en/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,8 +185,9 @@ Contributions, issues, and feature requests are welcome!
 
 - **What new features should be expected in the next release of the project?**
 
-  - I am currently working on adding **More Complex Morse Codes**.
-
+  - a psql db
+  - a web portal
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
