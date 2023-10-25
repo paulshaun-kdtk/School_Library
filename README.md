@@ -187,7 +187,7 @@ Feel free to check the [issues page](../../issues/).
 
   - a psql db
   - a web portal
-  
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -197,4 +197,3 @@ Feel free to check the [issues page](../../issues/).
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
