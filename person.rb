@@ -1,4 +1,7 @@
 require_relative 'nameable'
+require_relative 'capitalize_decorator'
+require_relative 'trimmer_decorator'
+
 
 class Person < Nameable
   attr_accessor :name, :age
@@ -28,32 +31,6 @@ class Person < Nameable
 
   def generate_id
     rand(1_000_000)
-  end
-end
-
-class BaseDecorator < Nameable
-  def initialize(nameable)
-    super() # This is required for linter checks
-    @nameable = nameable
-  end
-
-  def correct_name
-    @nameable.correct_name
-  end
-end
-
-class CapitalizeDecorator < BaseDecorator
-  def correct_name
-    @nameable.correct_name.capitalize
-  end
-end
-
-class TrimmerDecorator < BaseDecorator
-  MAX_LENGTH = 10
-
-  def correct_name
-    trimmed_name = @nameable.correct_name[0, MAX_LENGTH]
-    trimmed_name.length == MAX_LENGTH ? trimmed_name : "#{trimmed_name}..."
   end
 end
 
