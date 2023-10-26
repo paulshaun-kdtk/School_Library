@@ -57,7 +57,6 @@ class TrimmerDecorator < BaseDecorator
   end
 end
 
-
 person = Person.new(22, name: 'maximilianus')
 puts person.correct_name
 # Output: maximilianus
