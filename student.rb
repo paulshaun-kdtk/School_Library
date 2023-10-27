@@ -1,6 +1,3 @@
-require_relative 'person'
-require_relative 'classroom'
-
 class Student < Person
   attr_accessor :classroom
 
@@ -11,6 +8,6 @@ class Student < Person
 
   def assign_classroom(classroom)
     @classroom = classroom
-    classroom.students << self unless classroom.students.include?(self)
+    classroom.add_student(self) unless classroom.students.include?(self)
   end
 end

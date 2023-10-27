@@ -1,12 +1,11 @@
 require_relative 'decorators/nameable'
 require_relative 'decorators/capitalize_decorator'
 require_relative 'decorators/trimmer_decorator'
-require_relative 'rental'
-require_relative 'book'
+require 'date'
 
 class Person < Nameable
   attr_accessor :name, :age
-  attr_reader :id
+  attr_reader :id, :rentals
 
   def initialize(age, name: 'Unknown', parent_permission: true)
     super()
