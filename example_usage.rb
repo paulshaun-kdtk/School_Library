@@ -21,8 +21,8 @@ date = Date.new(2023, 10, 27)
 person1.rent(book1, date)
 
 # Check rentals
-puts person1.rentals[0].book.title  # Should output "Introduction to Ruby"
-puts person1.rentals[0].date       # Should output "2023-10-27"
+puts person1.rentals[0].book.title # Should output "Introduction to Ruby"
+puts person1.rentals[0].date # Should output "2023-10-27"
 
 # Create a teacher
 teacher1 = Teacher.new(30, 'Math', name: 'Mr. Smith')
@@ -32,5 +32,5 @@ date = Date.new(2023, 10, 28)
 teacher1.rent(book1, date)
 
 # Check rentals
-puts teacher1.rentals[0].book.title  # Should output "Introduction to Ruby"
-puts teacher1.rentals[0].date       # Should output "2023-10-28"
+puts teacher1.rentals[0].book.title # Should output "Introduction to Ruby"
+puts teacher1.rentals[0].date # Should output "2023-10-28"
