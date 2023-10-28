@@ -7,7 +7,7 @@ class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id, :rentals
 
-  @@all_people = []
+  @all_people = []
 
   def initialize(age, name: 'Unknown', parent_permission: true)
     super()
@@ -18,12 +18,12 @@ class Person < Nameable
     @rentals = []
   end
 
-  def self.all_people
-    @@all_people
+  class << self
+    attr_reader :all_people
   end
 
   def self.find_by_id(id)
-    @@all_people.find { |person| person.id == id }
+    @all_people.find { |person| person.id == id }
   end
 
   def can_use_services?
