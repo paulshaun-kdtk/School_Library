@@ -7,6 +7,8 @@ class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id, :rentals
 
+  @all_people = []
+
   def initialize(age, name: 'Unknown', parent_permission: true)
     super()
     @id = generate_id
@@ -14,6 +16,14 @@ class Person < Nameable
     @age = age
     @parent_permission = parent_permission
     @rentals = []
+  end
+
+  class << self
+    attr_reader :all_people
+  end
+
+  def self.find_by_id(id)
+    @all_people.find { |person| person.id == id }
   end
 
   def can_use_services?
